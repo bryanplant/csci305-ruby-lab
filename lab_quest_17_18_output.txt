@@ -1,0 +1,30 @@
+FF
+
+Failures:
+
+  1) Lab Questions Check Fixed the problem 17. Song title starting with word 'montana'
+     Failure/Error: expect(create_title 'montana').to eq('montana sacra nova baby i love you are')
+
+       expected: "montana sacra nova baby i love you are"
+            got: "montana sacra nova scotia"
+
+       (compared using ==)
+     # ./spec/lab_quest_17_18_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  2) Lab Questions Check Fixed the problem 18. Song title starting with word 'bob'
+     Failure/Error: expect(create_title 'bob').to eq('bob marley song you are')
+
+       expected: "bob marley song you are"
+            got: "bob marley vs world is my heart"
+
+       (compared using ==)
+     # ./spec/lab_quest_17_18_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 0.24891 seconds (files took 1 minute 12.58 seconds to load)
+2 examples, 2 failures
+
+Failed examples:
+
+rspec ./spec/lab_quest_17_18_spec.rb:7 # Lab Questions Check Fixed the problem 17. Song title starting with word 'montana'
+rspec ./spec/lab_quest_17_18_spec.rb:12 # Lab Questions Check Fixed the problem 18. Song title starting with word 'bob'
+

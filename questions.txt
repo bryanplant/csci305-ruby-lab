@@ -1,24 +1,42 @@
-Your name
+Bryan Plant
 CSCI-305
 
-10.
+10. The song titles seem to always get stuck in a loop of repeating phrases.
+    "is a little girl in the world...", "you are..."
 
-14.
+14. Most words that are input end up resulting in popular words like "you" and
+    "are" which form repeating phrases
 
-15.
+15. "shat sandwich w il mio babbino caro gianni schicchi"
 
-16.
+16. I solved the problem of repeating phrases by cutting off the song title when
+    a repeating word appears. To do this, the title is constructed as a list
+    of strings. This list can be used by checking it every time a new word is
+    going to be added. If the word that is going to be added is already in the
+    list, then the song title is completed. Otherwise the word is added to the
+    list and the process continues.
 
-19.
+19. 1st - "bob marley me down road blues night long way you are"
+    2nd - "bob marley song you are"
+    3rd - "bob marley vs world is my heart"
+    The title differs because there are multiple most common words to follow
+    the word "marley" which are randomly selected.
 
-20.
+20. "boogie woogie flu season witch hunt you are"
 
-21.
+21. I like how easy it is to use regular expressions because I've needed to use
+    them for other projects in other languages and they were a lot more difficult
+    to get working.
 
-22.
+22. I don't like using the end keyword instead of curly braces because they are
+    easy to forget and look messy.
 
-23.
+23. I enjoyed the lab for the most part. It was fun to make song titles at the
+    end. I didn't like making the bigrams data structure because it said we could
+    use any data structure but I later learned that we could only use hashes or
+    the self checks wouldn't work.
 
-24.
+24. 8 hours
 
-25.
+25. I don't foresee myself using Ruby in the future. I might consider using it
+    if I need to do some kind of data processing.
